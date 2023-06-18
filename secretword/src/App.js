@@ -118,7 +118,7 @@ function App() {
       startGame()
     }
 
-  }, [guessedLetters, letters, startGame])
+  }, [guessedLetters, letters, startGame, gameStage])
 
   // restarts the game
   const retry = () => {
